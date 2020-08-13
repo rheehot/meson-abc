@@ -5,7 +5,8 @@ source_url = https://github.com/Cyan4973/xxHash/archive/v0.8.0.tar.gz
 source_filename = xxHash-0.8.0.tar.gz
 source_hash = 7054c3ebd169c97b64a92d7b994ab63c70dd53a06974f1f630ab782c28db0f4f
 
-patch_url = https://wrapdb.mesonbuild.com/v1/projects/xxhash/0.6.5/1/get_zip
-patch_filename = xxhash-0.6.5-1-wrap.zip
-patch_hash = 2c00ba62116b627a99ea93947f47e922a8d5dae83b4bd8789285f407361c7cfe
+#patch_url = https://wrapdb.mesonbuild.com/v1/projects/xxhash/0.6.5/1/get_zip
+patch_url = https://github.com/ageldama/meson-abc/blob/master/xxHash-0.8.0.tar.gz?raw=true
+patch_filename = xxhash-0.8.0-wrap.tar.gz
+patch_hash = 6138499fa38627c46a1f338643e52db8b3b7cb113feeae59c669506853b8263c
 
