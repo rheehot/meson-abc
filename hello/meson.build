@@ -6,7 +6,8 @@ project('hello', 'cpp',
 gtest_deps = dependency('gtest', method : 'pkg-config', main: true)
 
 executable('hello',
-           'main.cpp',
+           sources: ['main.cpp'],
+           cpp_pch: 'pch/my_pch.h',
            install : false)
 
 

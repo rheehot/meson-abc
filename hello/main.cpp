@@ -1,6 +1,4 @@
-#include <iostream>
-#include <cstdlib>
-#include "hello.h"
+#include "my_pch.h"
 
 using namespace std;
 
