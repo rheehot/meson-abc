@@ -2,7 +2,8 @@
 #include "gtest/gtest.h"
 
 
-TEST(GreetTest, TestGreetWithName) {
+TEST(GreetTest, TestGreetWithName)
+{
   ASSERT_EQ("Hello, World!", greet("World"));
 }
 
