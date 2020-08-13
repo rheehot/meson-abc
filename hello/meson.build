@@ -7,7 +7,6 @@ gtest_deps = dependency('gtest', method : 'pkg-config', main: true)
 
 executable('hello',
            'main.cpp',
-           dependencies: gtest_deps,
            install : false)
 
 
