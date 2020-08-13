@@ -7,5 +7,5 @@ using namespace std;
 int main()
 {
   cout << "Hello, World!" << endl;
-  exit(EXIT_SUCCEED);
+  exit(EXIT_SUCCESS);
 }
