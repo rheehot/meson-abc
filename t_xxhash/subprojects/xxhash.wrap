@@ -4,3 +4,8 @@ revision = head
 
 # TODO ~PREFIX=... make install~
 
+
+patch_url = https://wrapdb.mesonbuild.com/v1/projects/xxhash/0.6.5/1/get_zip
+patch_filename = xxhash-0.6.5-1-wrap.zip
+patch_hash = 2c00ba62116b627a99ea93947f47e922a8d5dae83b4bd8789285f407361c7cfe
+
